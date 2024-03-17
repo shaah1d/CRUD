@@ -7,12 +7,14 @@ Create: Users can create new comments by submitting a form with their name and c
 Read: Visitors can view existing comments displayed on the website to read what others have shared.
 Update: Comment authors can edit their comments to revise or add additional information.
 Delete: Users with appropriate permissions can delete comments that are no longer relevant or appropriate.
-Technologies Used
-Frontend:
+## Technologies Used
 
-HTML
-CSS
-JavaScript
-Backend:
+- **Frontend**:
+  - HTML
+  - CSS
+  - JavaScript
 
-Express.js
+- **Backend**:
+  - Express.js
+
+

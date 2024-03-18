@@ -33,7 +33,9 @@
     </div>
     <a href="/comments">Home page</a>
     <a href="/comments/<%=comment.id%>/edit">Edit your comment</a>
+    <form action="/comments/<%= comment.id %>?_method=DELETE" method="POST">
+      <button>DELETE</button> 
+    </form>
 </body>
 </html>
-
 

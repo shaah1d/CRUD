@@ -57,6 +57,11 @@ app.patch('/comments/:id', (req,res) => {
     foundComment.comment = newCommentText;
     res.redirect('/comments');
 })
+app.delete('/comments/:id', (req,res) => {
+   const { id } = req.params;
+   comments = comments.filter(c => c.id !== id);
+   res.redirect('/comments');
+})
 app.listen(3000, () => {
     console.log("ON PORT 3000");
 })
